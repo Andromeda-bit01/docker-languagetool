@@ -1,5 +1,12 @@
 # LanguageTool
 
+**Fork Notice:** 
+This is a fork that works on macOS with the M1 chip.
+Built with command: 
+```bash
+docker buildx build --platform linux/arm64 -t my-languagetool:arm64 --load -f Dockerfile .
+```
+
 > [LanguageTool](https://www.languagetool.org/) is an Open Source proofreading software for English, French, German, Polish, Russian, and [more than 20 other languages](https://languagetool.org/languages/). It finds many errors that a simple spell checker cannot detect.
 
 The source repository can be found [here](https://github.com/meyayl/docker-languagetool).
